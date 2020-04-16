@@ -1,0 +1,33 @@
+*** recipes database plan ***
+
+- entities:
+- recipes
+- ingrediants
+- steps
+- quantity
+- type
+
+tables:
+- recipes
+-steps
+- ingrediants
+
+recipes fields:
+- primary key: ID 
+- name/title
+
+steps fields:
+- primary key: ID
+- recipeID
+- ingrediantID
+- step order number
+
+
+ingrediants fields:
+- primary key: ID
+- ingrediant name
+- quantity
+
+- recipeId
+
+
